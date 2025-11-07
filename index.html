@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kacy Hatfield — Portfolio</title>
+  <meta name="description" content="Researcher in XR/AI/ML. Martian dust devil detection, computer vision, and more." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+</head>
+<body>
+  <header class="site-header container">
+    <div class="brand">Kacy Hatfield</div>
+    <nav class="nav">
+      <button id="menu" aria-label="Menu">☰</button>
+      <ul id="links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>ML + Planetary Science + Vision</h1>
+      <p>I build machine learning systems for scientific discovery—recently, an automated pipeline to detect Martian dust devils in Perseverance rover imagery.</p>
+      <div class="cta-row">
+        <a class="btn" href="#work">See projects</a>
+        <button id="theme-toggle" class="btn-secondary" type="button">Toggle theme</button>
+      </div>
+    </section>
+
+    <section id="work" class="container">
+      <h2>Selected Work</h2>
+
+      <!-- Example card 1 -->
+      <article class="card">
+        <h3>Enhanced Detection of Martian Dust Devils</h3>
+        <p>Fine-tuned Faster R-CNN + temporal differencing to find faint, amorphous vortices in ~23k Perseverance images; surfaced 20 events (19 new).</p>
+        <ul class="tags">
+          <li>Computer Vision</li><li>Detectron2</li><li>Mars</li>
+        </ul>
+        <!-- Replace these with real links/files as you like -->
+        <p><a href="#" target="_blank" rel="noopener">Paper</a> · <a href="#" target="_blank" rel="noopener">Code</a> · <a href="#" target="_blank" rel="noopener">Dataset</a></p>
+      </article>
+
+      <!-- Example card 2 -->
+      <article class="card">
+        <h3>Motion Transfer for Insect Behavior</h3>
+        <p>Thin-plate spline motion model + keypoint viz & metrics to study identity swaps in insect colonies at scale.</p>
+        <ul class="tags">
+          <li>Deep Learning</li><li>Pose</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="publications" class="container">
+      <h2>Publications</h2>
+      <ul class="pubs">
+        <li><strong>Enhanced Detection of Martian Dust Devils from Rover Images using Machine Learning</strong> — JGR: Planets (submitted).</li>
+      </ul>
+    </section>
+
+    <section id="about" class="container">
+      <h2>About</h2>
+      <p>Graduate Research Assistant at ASU’s Geometric Media Lab; NASA Goddard intern. I work on ML algorithms for perception, XR, and planetary data.</p>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:khatfie2@asu.edu">khatfie2@asu.edu</a></p>
+      <p>GitHub: <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">github.com/YOUR-USERNAME</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/YOUR-HANDLE" target="_blank" rel="noopener">linkedin.com/in/YOUR-HANDLE</a></p>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <small>© <span id="year"></span> Kacy Hatfield • Built with GitHub Pages</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
