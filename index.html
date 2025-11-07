@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kacy Hatfield — Portfolio</title>
-  <meta name="description" content="Researcher in XR/AI/ML. Martian dust devil detection, computer vision, and more." />
+  <title>Kacy Hatfield — Research & Projects</title>
+  <meta name="description" content="Researcher in XR, AI, and planetary computer vision. NASA Goddard • ASU Geometric Media Lab" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
 </head>
 <body>
   <header class="site-header container">
     <div class="brand">Kacy Hatfield</div>
     <nav class="nav">
-      <button id="menu" aria-label="Menu">☰</button>
+      <button id="menu">☰</button>
       <ul id="links">
-        <li><a href="#work">Work</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#projects">Creative Work</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact" class="btn">Contact</a></li>
@@ -24,62 +24,79 @@
 
   <main>
     <section class="hero container">
-      <h1>ML + Planetary Science + Vision</h1>
-      <p>I build machine learning systems for scientific discovery—recently, an automated pipeline to detect Martian dust devils in Perseverance rover imagery.</p>
+      <h1>Machine Learning for Discovery — From Mars to the Metaverse</h1>
+      <p>Graduate researcher at <strong>Arizona State University</strong> and <strong>NASA Goddard</strong>, developing AI systems that reveal hidden patterns in scientific and perceptual data.</p>
       <div class="cta-row">
-        <a class="btn" href="#work">See projects</a>
-        <button id="theme-toggle" class="btn-secondary" type="button">Toggle theme</button>
+        <a href="#research" class="btn">Explore Work</a>
+        <button id="theme-toggle" class="btn-secondary">Toggle Theme</button>
       </div>
     </section>
 
-    <section id="work" class="container">
-      <h2>Selected Work</h2>
+    <section id="research" class="container">
+      <h2>Research Highlights</h2>
 
-      <!-- Example card 1 -->
       <article class="card">
         <h3>Enhanced Detection of Martian Dust Devils</h3>
-        <p>Fine-tuned Faster R-CNN + temporal differencing to find faint, amorphous vortices in ~23k Perseverance images; surfaced 20 events (19 new).</p>
-        <ul class="tags">
-          <li>Computer Vision</li><li>Detectron2</li><li>Mars</li>
-        </ul>
-        <!-- Replace these with real links/files as you like -->
-        <p><a href="#" target="_blank" rel="noopener">Paper</a> · <a href="#" target="_blank" rel="noopener">Code</a> · <a href="#" target="_blank" rel="noopener">Dataset</a></p>
+        <p>Developed a <strong>deep learning pipeline</strong> to detect low-opacity dust devils in over 23,000 Perseverance rover images, revealing 19 previously undocumented atmospheric events. This system integrates <em>temporal differencing</em> and <em>domain-specific retraining</em> to enable real-time environmental monitoring on Mars.</p>
+        <ul class="tags"><li>NASA Goddard</li><li>Computer Vision</li><li>Planetary Science</li></ul>
+        <p><a href="#" target="_blank">Read Paper</a> · <a href="#" target="_blank">Code + Dataset</a></p>
       </article>
 
-      <!-- Example card 2 -->
       <article class="card">
-        <h3>Motion Transfer for Insect Behavior</h3>
-        <p>Thin-plate spline motion model + keypoint viz & metrics to study identity swaps in insect colonies at scale.</p>
-        <ul class="tags">
-          <li>Deep Learning</li><li>Pose</li>
-        </ul>
+        <h3>Fine-Tuned Motion Models for Insect Behavior</h3>
+        <p>Adapted thin-plate spline motion transfer to track <strong>identity swaps in insect colonies</strong> without physical markers. Integrated SLEAP for pose estimation and visualized learned keypoints to interpret model mechanisms. Presented at <strong>CVPR 2024 CV4Animals Workshop</strong>.</p>
+        <ul class="tags"><li>Behavioral AI</li><li>Deep Learning</li><li>Biological Vision</li></ul>
+      </article>
+
+      <article class="card">
+        <h3>Risks and Mitigations of AI-Powered Space Systems</h3>
+        <p>Examines the <strong>ethical and technical risks</strong> of integrating AI into autonomous spacecraft. Proposes solutions using <em>Particle Swarm Optimization</em> to improve data replicability and reduce failure liability in scientific AI systems.</p>
+        <ul class="tags"><li>AI Ethics</li><li>Autonomy</li><li>Space Systems</li></ul>
+      </article>
+
+      <article class="card">
+        <h3>AI in the Metaverse: A Speculative Future</h3>
+        <p>A world-building narrative exploring <strong>AI avatars and identity</strong> in a 2045 metaverse. Investigates human–AI relationships and the ethical boundaries of artificial general intelligence through an immersive story format.</p>
+        <ul class="tags"><li>Storytelling</li><li>AGI</li><li>Ethics</li></ul>
+      </article>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Creative & Technical Projects</h2>
+      <article class="card">
+        <h3>Shells & Bytes: Teaching Machine Learning through Narrative</h3>
+        <p>A pedagogical short story where “Pip,” a Naïve Bayes classifier, learns to classify seashells on a metaphorical beach—making core ML concepts accessible through metaphor and storytelling.</p>
+        <ul class="tags"><li>ML Education</li><li>Transparency</li><li>Story Design</li></ul>
+      </article>
+
+      <article class="card">
+        <h3>Agent-Based Learning Visualized in Unreal Engine</h3>
+        <p>Built an interactive simulation demonstrating hybrid <strong>imitation + reinforcement learning</strong> for autonomous driving. Enables visual insight into reward shaping, generalization, and policy refinement.</p>
+        <ul class="tags"><li>Reinforcement Learning</li><li>Simulation</li><li>XR</li></ul>
       </article>
     </section>
 
     <section id="publications" class="container">
       <h2>Publications</h2>
       <ul class="pubs">
-        <li><strong>Enhanced Detection of Martian Dust Devils from Rover Images using Machine Learning</strong> — JGR: Planets (submitted).</li>
+        <li><strong>Hatfield, K., Santerre, J., Nixon, C.A.</strong> (2025). “Enhanced Detection of Martian Dust Devils from Rover Images using Machine Learning.” <em>Journal of Geophysical Research: Planets</em>.</li>
       </ul>
     </section>
 
     <section id="about" class="container">
       <h2>About</h2>
-      <p>Graduate Research Assistant at ASU’s Geometric Media Lab; NASA Goddard intern. I work on ML algorithms for perception, XR, and planetary data.</p>
+      <p>I’m a <strong>Graduate Research Assistant</strong> in the <a href="https://geometricmedialab.com" target="_blank">Geometric Media Lab</a> at ASU, studying Extended Realities Technology (AI/ML). My work bridges <strong>scientific machine learning</strong>, <strong>planetary imaging</strong>, and <strong>artistic visualization</strong>—developing algorithms that not only interpret data but also reveal new ways to see our world and others.</p>
     </section>
 
     <section id="contact" class="container">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:khatfie2@asu.edu">khatfie2@asu.edu</a></p>
-      <p>GitHub: <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">github.com/YOUR-USERNAME</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/YOUR-HANDLE" target="_blank" rel="noopener">linkedin.com/in/YOUR-HANDLE</a></p>
+      <p><a href="mailto:khatfie2@asu.edu">khatfie2@asu.edu</a> · <a href="https://github.com/YOUR-USERNAME">GitHub</a> · <a href="https://www.linkedin.com/in/YOUR-HANDLE">LinkedIn</a></p>
     </section>
   </main>
 
   <footer class="container site-footer">
     <small>© <span id="year"></span> Kacy Hatfield • Built with GitHub Pages</small>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
